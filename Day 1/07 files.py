@@ -2,7 +2,7 @@ from sys import argv
 
 script, filename = argv
 
-target = open(filename, 'w+') # http://www.manpagez.com/man/3/fopen/
+target = open(filename, 'a+') # http://www.manpagez.com/man/3/fopen/
 
 line1 = raw_input("line 1: ")
 line2 = raw_input("line 2: ")
