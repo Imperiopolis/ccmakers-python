@@ -56,7 +56,7 @@ Do you flee for your life or eat your head?"""
 
     def performRoom(self, next):
         if "flee" in next:
-            return ["", None]
+            return ["", StartingRoom()]
         elif "head" in next:
             return ["Well that was tasty!", None]
         else:
