@@ -19,8 +19,8 @@ print "MI is the abbreviation for: ", states['MI']
 
 # print every state abbreviation
 print '-' * 10
-for state, abbrev in states.items():
-    print "%s is abbreviated %s" % (abbrev, state)
+for abbrev, state in states.items():
+    print "%s is abbreviated %s" % (state, abbrev)
 
 print '-' * 10
 # safely get a abbreviation by state that might not be there
